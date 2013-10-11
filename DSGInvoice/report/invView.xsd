@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="invView" targetNamespace="http://tempuri.org/invView.xsd" xmlns:mstns="http://tempuri.org/invView.xsd" xmlns="http://tempuri.org/invView.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="invView" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="invView" msprop:Generator_UserDSName="invView">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="invView" msprop:Generator_TableClassName="invViewDataTable" msprop:Generator_TableVarName="tableinvView" msprop:Generator_TablePropName="_invView" msprop:Generator_RowDeletingName="invViewRowDeleting" msprop:Generator_RowChangingName="invViewRowChanging" msprop:Generator_RowEvHandlerName="invViewRowChangeEventHandler" msprop:Generator_RowDeletedName="invViewRowDeleted" msprop:Generator_UserTableName="invView" msprop:Generator_RowChangedName="invViewRowChanged" msprop:Generator_RowEvArgName="invViewRowChangeEvent" msprop:Generator_RowClassName="invViewRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="inv_number" msprop:Generator_ColumnVarNameInTable="columninv_number" msprop:Generator_ColumnPropNameInRow="inv_number" msprop:Generator_ColumnPropNameInTable="inv_numberColumn" msprop:Generator_UserColumnName="inv_number" type="xs:string" minOccurs="0" />
+              <xs:element name="inv_date" msprop:Generator_ColumnVarNameInTable="columninv_date" msprop:Generator_ColumnPropNameInRow="inv_date" msprop:Generator_ColumnPropNameInTable="inv_dateColumn" msprop:Generator_UserColumnName="inv_date" type="xs:string" minOccurs="0" />
+              <xs:element name="cust_name" msprop:Generator_ColumnVarNameInTable="columncust_name" msprop:Generator_ColumnPropNameInRow="cust_name" msprop:Generator_ColumnPropNameInTable="cust_nameColumn" msprop:Generator_UserColumnName="cust_name" type="xs:string" minOccurs="0" />
+              <xs:element name="inv_amount" msprop:Generator_ColumnVarNameInTable="columninv_amount" msprop:Generator_ColumnPropNameInRow="inv_amount" msprop:Generator_ColumnPropNameInTable="inv_amountColumn" msprop:Generator_UserColumnName="inv_amount" type="xs:string" minOccurs="0" />
+              <xs:element name="due_date" msprop:Generator_ColumnVarNameInTable="columndue_date" msprop:Generator_ColumnPropNameInRow="due_date" msprop:Generator_ColumnPropNameInTable="due_dateColumn" msprop:Generator_UserColumnName="due_date" type="xs:string" minOccurs="0" />
+              <xs:element name="recp_number" msprop:Generator_ColumnVarNameInTable="columnrecp_number" msprop:Generator_ColumnPropNameInRow="recp_number" msprop:Generator_ColumnPropNameInTable="recp_numberColumn" msprop:Generator_UserColumnName="recp_number" type="xs:string" minOccurs="0" />
+              <xs:element name="recp_amount" msprop:Generator_ColumnVarNameInTable="columnrecp_amount" msprop:Generator_ColumnPropNameInRow="recp_amount" msprop:Generator_ColumnPropNameInTable="recp_amountColumn" msprop:Generator_UserColumnName="recp_amount" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
